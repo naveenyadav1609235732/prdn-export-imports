@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head><meta charset="utf-8" /><title>Form registration</title></head>
+  <body>
+    <!-- Build-time registration for Netlify Forms. Field names must match the React forms. -->
+    <form name="exporter-registration" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="exporter-registration" />
+      <input name="bot-field" />
+      <input name="company" />
+      <input name="license_number" />
+      <input name="country" />
+      <input name="city" />
+      <input name="website" />
+      <input name="contact_name" />
+      <input name="designation" />
+      <input name="email" type="email" />
+      <input name="phone" />
+      <input name="categories" />
+      <textarea name="products_detail"></textarea>
+      <input name="monthly_capacity" />
+      <input name="certifications" />
+      <textarea name="message"></textarea>
+    </form>
+
+    <form name="importer-registration" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="importer-registration" />
+      <input name="bot-field" />
+      <input name="company" />
+      <input name="business_type" />
+      <input name="country" />
+      <input name="destination_port" />
+      <input name="contact_name" />
+      <input name="designation" />
+      <input name="email" type="email" />
+      <input name="phone" />
+      <input name="categories" />
+      <textarea name="products_detail"></textarea>
+      <input name="monthly_volume" />
+      <input name="incoterm" />
+      <textarea name="message"></textarea>
+    </form>
+
+    <form name="enquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="enquiry" />
+      <input name="bot-field" />
+      <input name="name" />
+      <input name="company" />
+      <input name="email" type="email" />
+      <input name="phone" />
+      <input name="enquirer_type" />
+      <input name="product" />
+      <textarea name="message"></textarea>
+    </form>
+  </body>
+</html>
